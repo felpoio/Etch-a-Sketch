@@ -8,6 +8,10 @@ div {
 }
 
 #container {
-    width: 400px;
-    height: 400px;
+    margin: auto;
+    min-width: 402px;
+    min-height: 402px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
 }
