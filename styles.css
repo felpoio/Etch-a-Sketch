@@ -7,6 +7,10 @@ div {
     width: 25px;
 }
 
+.selected {
+    background-color: black;
+}
+
 #container {
     margin: auto;
     min-width: 402px;
