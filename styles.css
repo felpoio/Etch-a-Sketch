@@ -2,15 +2,14 @@
     box-sizing: border-box;
 }
 
-div {
-    height: 25px;
-    width: 25px;
-}
+
 
 #container {
     margin: auto;
     min-width: 402px;
+    max-width: 402px;
     min-height: 402px;
+    max-height: 402px;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
