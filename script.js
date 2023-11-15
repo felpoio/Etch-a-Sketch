@@ -1,3 +1,12 @@
+/* TODO
+criar botão de limpar
+criar borracha
+criar modo colorido
+colocar um background bonito
+adicionar sombra ao container
+mudar o tamanho da grid de acordo com um input do usuario (máx 64)
+
+*/
 container = document.querySelector('#container')
 
 let i = 0
