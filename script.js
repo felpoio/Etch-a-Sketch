@@ -1,26 +1,42 @@
 /* TODO
-criar botão de limpar
 criar borracha
 criar modo colorido
 colocar um background bonito
 adicionar sombra ao container
-mudar o tamanho da grid de acordo com um input do usuario (máx 100)
 */
 criaGrid(64)
 
 let button1 = document.querySelector('#grid-32')
 let button2 = document.querySelector('#grid-64')
 let button3 = document.querySelector('#grid-128')
+let clear = document.querySelector("#clear")
+
+clearVar = 64
+
+clear.addEventListener("click", function(){
+    if (clearVar === 64) {
+        criaGrid(64)
+    } else if (clearVar === 32) {
+        criaGrid(32)
+    } else {
+        criaGrid(128)
+    }
+})
+
+
 
 button1.addEventListener("click", function(){
+    clearVar = 32
     criaGrid(32)
 })
 
 button2.addEventListener("click", function(){
+    clearVar = 64
     criaGrid(64)
 })
 
 button3.addEventListener("click", function(){
+    clearVar = 128
     criaGrid(128)
 })
 
