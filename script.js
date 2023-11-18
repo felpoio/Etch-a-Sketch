@@ -1,6 +1,4 @@
 /* TODO
-criar borracha
-criar modo colorido
 colocar um background bonito
 adicionar sombra ao container
 */
@@ -22,8 +20,6 @@ clear.addEventListener("click", function(){
         criaGrid(128)
     }
 })
-
-
 
 button1.addEventListener("click", function(){
     clearVar = 32
