@@ -10,5 +10,5 @@
     max-height: 402px;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
+    box-shadow: 10px 10px 20px #32383D;
 }
