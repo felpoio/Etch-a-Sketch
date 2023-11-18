@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fdfdfd;
 }
 
 #container {
@@ -11,4 +18,12 @@
     display: flex;
     flex-wrap: wrap;
     box-shadow: 10px 10px 20px #32383D;
+}
+
+button {
+    background-color: #32383D;
+    color: #fdfdfd;
+    border: 0;
+    padding: 20px;
+    border-radius: 20px;
 }
